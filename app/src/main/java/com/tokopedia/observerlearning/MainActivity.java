@@ -65,20 +65,18 @@ public class MainActivity extends AppCompatActivity {
         .subscribe(new Subscriber<WidgetObject>() {
             @Override
             public void onCompleted() {
-                Snackbar.make(findViewById(android.R.id.content), "Had a snack at Snackbar", Snackbar.LENGTH_LONG)
+                Snackbar.make(findViewById(android.R.id.content), "Process Ended!", Snackbar.LENGTH_LONG)
                         .setActionTextColor(Color.RED)
                         .show();
             }
 
             @Override
             public void onError(Throwable e) {
-                Log.v("OBSERVERLEARNING999", "ERROR");
                 e.printStackTrace();
             }
 
             @Override
             public void onNext(WidgetObject o) {
-                Log.v("OBSERVERLEARNING999", "get" + o.getText());
                 ivImage.setImageBitmap(o.getBitmap());
                 tvText.setText(o.getText());
             }
