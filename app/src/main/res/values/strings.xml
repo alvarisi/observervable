@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ObserverLearning</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla enim dolor,
+        aliquam et pulvinar non, tempor vitae massa. Aliquam id dictum eros. Sed at enim leo. Donec
+        porta eleifend nunc et dapibus. Sed id posuere nisi, accumsan semper urna. Ut vel vulputate
+        nisl. Donec blandit rhoncus est, eu venenatis ligula tincidunt non.</string>
+</resources>
